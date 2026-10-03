@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bella Vista Pizzeria</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Bella <span>Vista</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HOME ===== -->
+<section id="home">
+  <div class="hero-content">
+    <p>Authentic Italian Pizzeria · Athens, Greece</p>
+    <h1>Where Every Slice<br>Tells a Story</h1>
+    <div class="mt-4">
+      <a href="#menu" class="btn-pizza">View Menu</a>
+      <a href="#contact" class="btn-outline-pizza">Find Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section id="menu">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Our Specialties</span>
+      <h2 class="section-title">The Menu</h2>
+      <div class="section-line mx-auto"></div>
+      <p class="text-muted" style="max-width:500px; margin:0 auto; font-size:0.9rem;">
+        Made with imported Italian flour, San Marzano tomatoes, and fior di latte mozzarella.
+        Fired at 450°C for 90 seconds.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Margherita -->
+      <div class="col-md-6 col-lg-3">
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600" alt="Margherita"/>
+          <div class="pizza-card-body">
+            <h3>Margherita</h3>
+            <p>San Marzano tomato, fior di latte, fresh basil, extra virgin olive oil.</p>
+            <span class="pizza-price">€11</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diavola -->
+      <div class="col-md-6 col-lg-3">
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600" alt="Diavola"/>
+          <div class="pizza-card-body">
+            <h3>Diavola</h3>
+            <p>Spicy salami, tomato, mozzarella, chili flakes, smoked paprika.</p>
+            <span class="pizza-price">€13</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quattro Formaggi -->
+      <div class="col-md-6 col-lg-3">
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600" alt="Quattro Formaggi"/>
+          <div class="pizza-card-body">
+            <h3>Quattro Formaggi</h3>
+            <p>Mozzarella, gorgonzola, parmigiano, pecorino, honey drizzle.</p>
+            <span class="pizza-price">€14</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prosciutto -->
+      <div class="col-md-6 col-lg-3">
+        <div class="pizza-card">
+          <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600" alt="Prosciutto"/>
+          <div class="pizza-card-body">
+            <h3>Prosciutto</h3>
+            <p>Prosciutto crudo, fresh arugula, cherry tomatoes, parmigiano shavings.</p>
+            <span class="pizza-price">€15</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="red-divider"></div>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-5">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800"
+             alt="Restaurant interior" class="about-img"/>
+      </div>
+
+      <div class="col-lg-7 about-text">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">A Family Tradition<br>Since 1987</h2>
+        <div class="section-line"></div>
+        <p>
+          Bella Vista was born in the heart of Athens when Gianni Rossi, a young chef from Naples,
+          decided to bring the true taste of Neapolitan pizza to Greece. With nothing more than a
+          wood-fired oven, a family recipe, and an unshakable belief in honest ingredients, he opened
+          our doors on a quiet evening in October 1987.
+        </p>
+        <p>
+          Today, three generations later, we still use the same dough recipe — slow-fermented for
+          48 hours — and the same oven that Gianni built with his own hands. Every pizza that leaves
+          our kitchen carries that original philosophy: simplicity, quality, and soul.
+        </p>
+
+        <div class="row mt-4">
+          <div class="col-4">
+            <div class="about-stat">
+              <div class="number">37+</div>
+              <div class="label">Years open</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="about-stat">
+              <div class="number">48h</div>
+              <div class="label">Dough fermentation</div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="about-stat">
+              <div class="number">450°</div>
+              <div class="label">Oven temperature</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- Info -->
+      <div class="col-lg-5">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Contact</h2>
+        <div class="section-line"></div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h6>Address</h6>
+            <p>Athens, Greece</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h6>Phone</h6>
+            <p>+30 XXX XXX XXXX</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h6>Email</h6>
+            <p>hello@bellavista.com</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <h6>Opening Hours</h6>
+            <p>Mon – Sun &nbsp; 12:00 – 23:30</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="col-lg-7 contact-form">
+        <form>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <input type="text" class="form-control" placeholder="Your Name"/>
+            </div>
+            <div class="col-sm-6">
+              <input type="email" class="form-control" placeholder="Your Email"/>
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Subject"/>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="5" placeholder="Your message..."></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn-pizza">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 <span>Bella Vista</span> Pizzeria · Athens, Greece · Made with ❤️ and 🍕</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
