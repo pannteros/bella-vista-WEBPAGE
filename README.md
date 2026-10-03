@@ -89,7 +89,3 @@ code .
 | 🕐 Hours | Mon – Sun, 12:00 – 23:30 |
 
 ---
-
-## Developer
-
-Built by **pannteros** · 2026
