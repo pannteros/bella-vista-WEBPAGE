@@ -1,7 +1,4 @@
-# Bella Vista Pizzeria 🍕
-
-> A responsive one-page restaurant website built with HTML, CSS, Bootstrap 5 and JavaScript.
-
+# Bella Vista Pizzeria 
 
 ## Περιγραφή | Description
 
